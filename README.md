@@ -39,8 +39,6 @@ makeTransaction(10, 5000, 8000); // "Insufficient funds!"
 Truncates a message if it exceeds the given maximum length and adds "..." to the end.
 
 js
-Копировать
-Редактировать
 function formatMessage(message, maxLength) {
   return message.length <= maxLength
     ? message
@@ -49,8 +47,6 @@ function formatMessage(message, maxLength) {
 Examples:
 
 js
-Копировать
-Редактировать
 formatMessage("Curabitur ligula sapien", 16); // "Curabitur ligula..."
 formatMessage("Vestibulum facilisis purus nec", 30); // "Vestibulum facilisis purus nec"
 
@@ -67,8 +63,6 @@ function checkForSpam(message) {
 Examples:
 
 js
-Копировать
-Редактировать
 checkForSpam("Get best sale offers now!"); // true
 checkForSpam("JavaScript weekly newsletter"); // false
 
@@ -77,8 +71,6 @@ checkForSpam("JavaScript weekly newsletter"); // false
 Returns the shipping cost to a given country using a switch statement. If the country is not supported, returns a rejection message.
 
 js
-Копировать
-Редактировать
 function getShippingCost(country) {
   let price;
   switch (country) {
@@ -94,8 +86,6 @@ function getShippingCost(country) {
 Examples:
 
 js
-Копировать
-Редактировать
 getShippingCost("Australia"); // "Shipping to Australia will cost 170 credits"
 getShippingCost("Germany");   // "Sorry, there is no delivery to your country"
 🧠 What You'll Practice
